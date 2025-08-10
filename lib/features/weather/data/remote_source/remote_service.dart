@@ -22,7 +22,7 @@ class WeatherRemoteService implements WeatherRemoteSource {
         queryParam: {
           "lat": lat,
           "lon": lon,
-          "appid": "63d328b5784518e081834d31e9808b80",
+          "appid": "Your Open Weather Map api key",
         },
       );
       return WeatherResponseDTO.fromJson(response.data);
